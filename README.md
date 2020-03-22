@@ -25,7 +25,7 @@ You can replace yolo with mask but you should have Mask RCNN benchmark installed
 - tracker_help.py: Helping file that defines some functions, constants and classes being used in tracker.py.
 
 ## load_detect.py
-Since this is a big dataset and it takes almost 7 or 8 hours to process a single weather portion, so I have saved the predicted bounding boxes in json file. So you can get detection metrics using this file in a few seconds or minutes. First download and extract 'results.zip' file from https://drive.google.com/file/d/1iP-nl0mQOOpnARCqz7YLpTArHpbPz440/view?usp=sharing The running command for this file is:
+Since this is a big dataset and it takes almost 7 or 8 hours to process a single weather portion, so I have saved the predicted bounding boxes in json file. So you can get detection metrics using this file in a few seconds or minutes. First download and extract 'results.zip' file from https://drive.google.com/file/d/1iP-nl0mQOOpnARCqz7YLpTArHpbPz440/view?usp=sharing and place all files in results directory. The running command for this file is:
 ~~~
 python detect.py --method yolo --weather cloudy
 ~~~
