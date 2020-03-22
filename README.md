@@ -1,5 +1,5 @@
 # Trajectory estimation of vehicles in crowded and crossroad scenarios
-This repository holds the code and results for my Master's thesis available on https://www.overleaf.com/7453397376mnbqbhttzczd
+This repository holds the code and results for my Master's thesis available on [Overleaf](https://www.overleaf.com/7453397376mnbqbhttzczd). 
 The video demo of this project is in results directory. We propose tracking by detection based trajectory estimation pipeline which consists of two stages: The first stage is the detection and localization of vehicles and the second stage is Kalman Filter based tracking. We analyze the performance of **Mask RCNN benchmark** and **YOLOv3** on **UA DETRAC dataset** which is a large scale real life traffic dataset. We evaluate certain metrics like inference time, Intersection over union (IoU), Precision Recall (PR) curve and mean Average Precision. Experiments show that Mask RCNN benchmark outperforms YOLOv3 in speed and accuracy as compared to YOLOv3. After the detection, we analyze the performance of **centroid tracker** and **kalman filter** based tracker. Experiments show that Kalman filter based tracking gives us much more smooth and accurate trajectory as compared to noisy trajectory obtained from centroid tracker.
 
 ## Detection and Localization
