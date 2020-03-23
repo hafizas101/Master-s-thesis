@@ -2,7 +2,7 @@
 This repository holds the code and results for my Master's thesis available on [Overleaf](https://www.overleaf.com/7453397376mnbqbhttzczd). The video demo of this project is in results directory.
 
 ## Detection and Localization Code
-Download and extract 'weather_data.zip' file from https:. It contains test portion of UA-DETRAC dataset data and annotation folders according to weather categories defined by the authors of this dataset. Download weights file from https://drive.google.com/file/d/18Y2f61mW0sq4jHBAjaYkgDNf-uMa4nfV/view?usp=sharing and place it in /yolo_files/ directory.
+Download and extract 'weather_data.zip' file from [Google drive](https://drive.google.com/file/d/1_06MuiHz3zsgmRl36kgxoMiDbECR-b02/view?usp=sharing). It contains test portion of UA-DETRAC dataset data and annotation folders according to weather categories defined by the authors of this dataset. Download weights file from [Google Drive](https://drive.google.com/file/d/18Y2f61mW0sq4jHBAjaYkgDNf-uMa4nfV/view?usp=sharing) and place it in /yolo_files/ directory.
 The files corresponding to this part are 'yolov3_process.ipynb', 'detector.py' and 'detector_help.py'.
 - yolov3_process.ipynb: Jupyter notebook to run detection and measure Average Precision (AP) for a weather portion.
 - detector.py: Input the method and weather which you want to process. The running command for this file is:
@@ -24,7 +24,7 @@ You can replace yolo with mask but you should have Mask RCNN benchmark installed
 - tracker_help.py: Helping file that defines some functions, constants and classes being used in tracker.py.
 
 ## load_detect.py
-Since this is a big dataset and it takes almost 7 or 8 hours to process a single weather portion, so I have saved the predicted bounding boxes in json file. So you can get detection metrics using this file in a few seconds or minutes. First download and extract 'results.zip' file from https://drive.google.com/file/d/1iP-nl0mQOOpnARCqz7YLpTArHpbPz440/view?usp=sharing and place all files in results directory. The running command for this file is:
+Since this is a big dataset and it takes almost 7 or 8 hours to process a single weather portion, so I have saved the predicted bounding boxes in json file. So you can get detection metrics using this file in a few seconds or minutes. First download and extract 'results.zip' file from [Google Drive](https://drive.google.com/file/d/1iP-nl0mQOOpnARCqz7YLpTArHpbPz440/view?usp=sharing) and place all files in results directory. The running command for this file is:
 ~~~
 python detect.py --method yolo --weather cloudy
 ~~~
