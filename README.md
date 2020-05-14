@@ -1,7 +1,7 @@
 # Trajectory estimation of vehicles in crowded and crossroad scenarios
-This repository holds the code and results for my Master's thesis available on [Overleaf](https://www.overleaf.com/read/ctvxrfxkpnft). The video demo of this project is in results directory.
+This repository holds the code and results for my Master's thesis available on [Overleaf](https://www.overleaf.com/read/ctvxrfxkpnft). The video demo of this project is in results directory. In the below figure, black represents ground truth trajectory, green represents SORT tracker based trajectory and red represents centroid tracker based trajectory.
 <p align="center">
-  <img width="600" height="300" src="https://github.com/hafizas101/Master-s-thesis/blob/master/combined.png">
+  <img width="600" height="350" src="https://github.com/hafizas101/Master-s-thesis/blob/master/combined.png">
 </p>
 
 ## Detection and Localization Code
