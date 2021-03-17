@@ -5,7 +5,7 @@ This repository holds the code and results for my Master's thesis available on [
 </p>
 
 ## Detection and Localization Code
-Download and extract 'weather_data.zip' file from [Google drive](https://drive.google.com/file/d/1_06MuiHz3zsgmRl36kgxoMiDbECR-b02/view?usp=sharing). It contains test portion of UA-DETRAC dataset data and annotation folders according to weather categories defined by the authors of this dataset. Download weights file from [Google Drive](https://drive.google.com/file/d/18Y2f61mW0sq4jHBAjaYkgDNf-uMa4nfV/view?usp=sharing) and place it in /yolo_files/ directory.
+It contains test portion of UA-DETRAC dataset data and annotation folders according to weather categories defined by the authors of this dataset. Download weights file from [Google Drive](https://drive.google.com/file/d/18Y2f61mW0sq4jHBAjaYkgDNf-uMa4nfV/view?usp=sharing) and place it in /yolo_files/ directory.
 The files corresponding to this part are 'yolov3_process.ipynb', 'detector.py' and 'detector_help.py'.
 - yolov3_process.ipynb: Jupyter notebook to run detection and measure Average Precision (AP) for a weather portion.
 - detector.py: Input the method and weather which you want to process. The running command for this file is:
